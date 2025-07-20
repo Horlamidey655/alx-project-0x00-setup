@@ -1,5 +1,5 @@
-import Card from "@/components/Card";
-import Button from "@/components/Button";
+import Card from "@/component/Card";
+import Button from "@/component/Button";
 
 const Landing: React.FC = () => {
   return (
