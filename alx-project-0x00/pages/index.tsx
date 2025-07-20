@@ -63,6 +63,7 @@ const Home: React.FC = () => {
           </a>
         </div>
       </main>
+      <h1>Airbnb Application Clone system</h1>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"

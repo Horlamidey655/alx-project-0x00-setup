@@ -1,6 +1,7 @@
+import { ButtonProps } from "@/interfaces";
 import React from "react";
 
-const Button = ({ title, style }: { title: string; style: string }) => {
+const Button: React.FC<ButtonProps> = ({ title, style }) => {
   return <button className={style}>{title}</button>;
 };
 

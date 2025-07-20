@@ -1,5 +1,5 @@
-import Card from "@/component/Card";
-import Button from "@/component/Button";
+import Button from "@/components/Button";
+import Card from "@/components/Card";
 
 const Landing: React.FC = () => {
   return (
@@ -20,7 +20,7 @@ const Landing: React.FC = () => {
           />
           <Button
             title="Small - rounded-full"
-            style="bg-blue-500 text-white text-xs px-3 py-1 rounded-full"
+            style="bg-blue-500 text-white text-xs px-3 py-1 rounded-lg"
           />
         </div>
         {/* Medium Buttons */}
@@ -35,7 +35,7 @@ const Landing: React.FC = () => {
           />
           <Button
             title="Medium - rounded-full"
-            style="bg-green-500 text-white text-base px-4 py-2 rounded-full"
+            style="bg-green-500 text-white text-base px-4 py-2 rounded-lg"
           />
         </div>
         {/* Large Buttons */}
@@ -49,8 +49,8 @@ const Landing: React.FC = () => {
             style="bg-red-500 text-white text-lg px-6 py-3 rounded-md"
           />
           <Button
-            title="Large - rounded-full"
-            style="bg-red-500 text-white text-lg px-6 py-3 rounded-full"
+            title="Large - rounded-lg"
+            style="bg-red-500 text-white text-lg px-6 py-3 rounded-lg"
           />
         </div>
       </div>
